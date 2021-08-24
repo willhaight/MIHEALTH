@@ -1,0 +1,88 @@
+body {
+    background-image:url("moroccan-flower.png");
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+#redMi {
+    color:rgba(165, 2, 2, 0.815);
+    position:absolute;
+    top:40%;
+}
+
+#greenHealth {
+    color:rgba(33, 182, 33, 0.575);
+    position:absolute;
+    top:40%;
+    left:43px;
+}
+h1{
+    display: flex;
+}
+#navi {
+    display:flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    margin-right: 10%;
+}
+#webHeader {
+    background-color: white;
+    position:relative;
+}
+#webLogo {
+    display:flex;
+    align-items: center;
+}
+#content {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:5%;
+    background-color: rgb(189, 186, 186);
+}
+#picSize {
+    height:15%;
+    width:10%;
+    padding-right:1%;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
+.pic {
+    width:100%;
+    height:10%;
+    object-fit: cover;
+}
+.picOdd {
+    width:100%;
+    height:285px;
+    object-fit: cover;
+}
+#textBoxSize {
+    height:15%;
+    width:10%;
+    padding-right:1%;
+}
+#box {
+    height:30px;
+    width:60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:9%;
+    bottom:12%;
+}
+#boxL {
+    height:30px;
+    width:90px;
+    background-color: rgb(44, 143, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    right:9%;
+    bottom:0%;
+}
